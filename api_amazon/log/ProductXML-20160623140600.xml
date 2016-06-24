@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A147A61KSAHFTB</MerchantIdentifier>
+  </Header>
+  <MessageType>Product</MessageType>
+  <PurgeAndReplace>false</PurgeAndReplace>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Product>
+      <SKU>2060457</SKU>
+      <StandardProductID>
+        <Type>UPC</Type>
+        <Value>705016921027</Value>
+      </StandardProductID>
+      <Condition>
+        <ConditionType>New</ConditionType>
+      </Condition>
+      <DescriptionData>
+        <Title>Dymatize Elite Fusion 7 - Orange Dreamsicle - 4 lb</Title>
+        <Brand>Dymatize</Brand>
+        <Description>Comprehensive Nutrition Anytime. Delicious Taste Everytime. Great Taste Now Even Better! Dymatize made elite fusion 7 the best tasting protein product in the market when it launched, and now has taken taste to a whole new level. Our in-house flavor specialists worked long and hard to create even more decadent flavors for you to enjoy. The result: our richest, thickest, most delicious protein product yet! Strategic protein blend. Elite Fusion 7 provides 23 grams of protein from 7 high quality protein sources to deliver sustained nutrition for up to 7 hours. This protein blend delivers fast absorbing protein immediately after use as well as slower absorbing protein to maintain a steady stream of amino acids which are absorbed by your body over several hours. Complementary nutrition support. Each serving of Elite Fusion 7 delivers comprehensive nutrition support for your body including: 5g of BCAAs that help promote the building of muscles and speed recovery, Strategic vitamin blend with B-6, B-12, and C vitamins to help optimize metabolic function, increase energy, and bolster general health, CLA which helps promote fat loss and increase lean body mass, 5g of Fiber (excellent source) which helps control hunger and support a healthy digestion, 30% of the recommended daily value of Calcium to support bone strength. Multi-Purpose use. With its decadent taste and vast nutritional benefits, Elite Fusion 7 is the ultimate multi-purpose protein product. Treat yourself anytime, day or night &amp;#8211; as a morning boost, pre-workout, post-workout, between meals, or even as a treat before bed.Directions: Mix 1-2 scoops of Elite Fusion 7 with 5-6 ounces of water, juice or milk per scoop. Adjust the amount of fluid to reach desired consistency and flavor. Drink 1-2 servings daily to satisfy your protein requirements. To increase protein intake and achieve an even creamer taste mix with non-fat or low-fat milk.Warnings: Contains </Description>
+        <ItemDimensions>
+          <Length unitOfMeasure="IN">8.25</Length>
+          <Width unitOfMeasure="IN">8.25</Width>
+          <Height unitOfMeasure="IN">11.75</Height>
+          <Weight unitOfMeasure="LB">4.80</Weight>
+        </ItemDimensions>
+        <PackageDimensions>
+          <Length unitOfMeasure="IN">8.25</Length>
+          <Width unitOfMeasure="IN">8.25</Width>
+          <Height unitOfMeasure="IN">11.75</Height>
+        </PackageDimensions>
+        <ShippingWeight unitOfMeasure="LB">4.80</ShippingWeight>
+        <MSRP currency="USD">82.39</MSRP>
+        <Manufacturer>Dymatize</Manufacturer>
+        <MfrPartNumber>2060457</MfrPartNumber>
+        <SearchTerms>Dymatize</SearchTerms>
+        <SearchTerms> Protein</SearchTerms>
+        <SearchTerms> Supplements</SearchTerms>
+        <ItemType>Protein</ItemType>
+      </DescriptionData>
+    </Product>
+  </Message>
+</AmazonEnvelope>

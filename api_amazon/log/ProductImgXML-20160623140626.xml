@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>A147A61KSAHFTB</MerchantIdentifier>
+  </Header>
+  <MessageType>ProductImage</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <ProductImage>
+      <SKU>2060457</SKU>
+      <ImageType>Main</ImageType>
+      <ImageLocation>http://www.polyhousestore.com/media/catalog/product/2/0/2060457_3.jpg</ImageLocation>
+    </ProductImage>
+  </Message>
+</AmazonEnvelope>
