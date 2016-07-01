@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AmazonEnvelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="amzn-envelope.xsd">
+  <Header>
+    <DocumentVersion>1.01</DocumentVersion>
+    <MerchantIdentifier>M_SELLER_354577</MerchantIdentifier>
+  </Header>
+  <MessageType>Price</MessageType>
+  <Message>
+    <MessageID>1</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>TDPS361220</SKU>
+      <StandardPrice currency="USD">76.14</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>2</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>TDSR1UBRUSH</SKU>
+      <StandardPrice currency="USD">30.68</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>3</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42442</SKU>
+      <StandardPrice currency="USD">998.99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>4</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50230</SKU>
+      <StandardPrice currency="USD">349.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>5</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>48755</SKU>
+      <StandardPrice currency="USD">62.60</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>6</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42639</SKU>
+      <StandardPrice currency="USD">159.72</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>7</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>39839</SKU>
+      <StandardPrice currency="USD">38.38</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>8</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38986</SKU>
+      <StandardPrice currency="USD">180.85</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>9</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38971</SKU>
+      <StandardPrice currency="USD">25.14</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>10</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38962</SKU>
+      <StandardPrice currency="USD">79.49</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>11</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38961</SKU>
+      <StandardPrice currency="USD">64.34</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>12</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38960</SKU>
+      <StandardPrice currency="USD">72.40</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>13</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56161</SKU>
+      <StandardPrice currency="USD">27.96</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>14</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42527</SKU>
+      <StandardPrice currency="USD">171.86</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>15</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>52685</SKU>
+      <StandardPrice currency="USD">29.91</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>16</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>51725</SKU>
+      <StandardPrice currency="USD">141.69</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>17</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>51400</SKU>
+      <StandardPrice currency="USD">26.64</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>18</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50468</SKU>
+      <StandardPrice currency="USD">30.04</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>19</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>49216</SKU>
+      <StandardPrice currency="USD">628.44</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>20</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46285</SKU>
+      <StandardPrice currency="USD">37.51</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>21</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>42843</SKU>
+      <StandardPrice currency="USD">25.18</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>22</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>41213</SKU>
+      <StandardPrice currency="USD">274.44</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>23</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>39349</SKU>
+      <StandardPrice currency="USD">25.16</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>24</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>35804</SKU>
+      <StandardPrice currency="USD">247.90</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>25</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>35782</SKU>
+      <StandardPrice currency="USD">141.69</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>26</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>26257</SKU>
+      <StandardPrice currency="USD">231.90</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>27</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>48335</SKU>
+      <StandardPrice currency="USD">169.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>28</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46846</SKU>
+      <StandardPrice currency="USD">15.81</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>29</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46839</SKU>
+      <StandardPrice currency="USD">46.42</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>30</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46831</SKU>
+      <StandardPrice currency="USD">149.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>31</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46830</SKU>
+      <StandardPrice currency="USD">139.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>32</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46829</SKU>
+      <StandardPrice currency="USD">189.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>33</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56303</SKU>
+      <StandardPrice currency="USD">35.35</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>34</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56304</SKU>
+      <StandardPrice currency="USD">35.35</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>35</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50797</SKU>
+      <StandardPrice currency="USD">42.46</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>36</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50775</SKU>
+      <StandardPrice currency="USD">74.83</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>37</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50767</SKU>
+      <StandardPrice currency="USD">34.07</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>38</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50096</SKU>
+      <StandardPrice currency="USD">14.31</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>39</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36520</SKU>
+      <StandardPrice currency="USD">14.64</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>40</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36259</SKU>
+      <StandardPrice currency="USD">24.43</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>41</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>53310</SKU>
+      <StandardPrice currency="USD">118.68</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>42</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36104</SKU>
+      <StandardPrice currency="USD">207.63</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>43</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36101</SKU>
+      <StandardPrice currency="USD">167.14</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>44</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>36096</SKU>
+      <StandardPrice currency="USD">119.63</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>45</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>35945</SKU>
+      <StandardPrice currency="USD">147.88</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>46</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>35933</SKU>
+      <StandardPrice currency="USD">106.31</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>47</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>35928</SKU>
+      <StandardPrice currency="USD">106.31</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>48</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>55808</SKU>
+      <StandardPrice currency="USD">32.31</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>49</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>31659</SKU>
+      <StandardPrice currency="USD">29.48</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>50</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>53576</SKU>
+      <StandardPrice currency="USD">59.67</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>51</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>53669</SKU>
+      <StandardPrice currency="USD">76.38</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>52</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>39134</SKU>
+      <StandardPrice currency="USD">527.97</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>53</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50483</SKU>
+      <StandardPrice currency="USD">374.61</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>54</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>44600</SKU>
+      <StandardPrice currency="USD">239.05</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>55</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>55930</SKU>
+      <StandardPrice currency="USD">343.17</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>56</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>53426</SKU>
+      <StandardPrice currency="USD">1315.71</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>57</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>32976</SKU>
+      <StandardPrice currency="USD">183.21</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>58</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>57183</SKU>
+      <StandardPrice currency="USD">51.42</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>59</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>46295</SKU>
+      <StandardPrice currency="USD">14.05</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>60</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>32918</SKU>
+      <StandardPrice currency="USD">23.30</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>61</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56884</SKU>
+      <StandardPrice currency="USD">18.46</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>62</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56142</SKU>
+      <StandardPrice currency="USD">61.98</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>63</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56136</SKU>
+      <StandardPrice currency="USD">101.96</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>64</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56121</SKU>
+      <StandardPrice currency="USD">107.61</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>65</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>29064</SKU>
+      <StandardPrice currency="USD">72.28</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>66</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>31514</SKU>
+      <StandardPrice currency="USD">79.82</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>67</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>31498</SKU>
+      <StandardPrice currency="USD">228.62</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>68</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>31493</SKU>
+      <StandardPrice currency="USD">221.18</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>69</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>55362</SKU>
+      <StandardPrice currency="USD">14.67</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>70</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54941</SKU>
+      <StandardPrice currency="USD">58.07</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>71</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>59401</SKU>
+      <StandardPrice currency="USD">35.51</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>72</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>14670</SKU>
+      <StandardPrice currency="USD">49.87</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>73</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50194</SKU>
+      <StandardPrice currency="USD">315.00</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>74</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>55835</SKU>
+      <StandardPrice currency="USD">17.98</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>75</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50469</SKU>
+      <StandardPrice currency="USD">135.66</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>76</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>45726</SKU>
+      <StandardPrice currency="USD">140.63</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>77</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>39172</SKU>
+      <StandardPrice currency="USD">72.79</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>78</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>34466</SKU>
+      <StandardPrice currency="USD">45.40</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>79</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>34429</SKU>
+      <StandardPrice currency="USD">76.15</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>80</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>33124</SKU>
+      <StandardPrice currency="USD">53.91</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>81</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>33118</SKU>
+      <StandardPrice currency="USD">48.28</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>82</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54079</SKU>
+      <StandardPrice currency="USD">53.41</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>83</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56297</SKU>
+      <StandardPrice currency="USD">56.06</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>84</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>47028</SKU>
+      <StandardPrice currency="USD">12.48</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>85</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54714</SKU>
+      <StandardPrice currency="USD">27.43</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>86</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>32909</SKU>
+      <StandardPrice currency="USD">587.15</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>87</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54682</SKU>
+      <StandardPrice currency="USD">66.48</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>88</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54641</SKU>
+      <StandardPrice currency="USD">83.56</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>89</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>27235</SKU>
+      <StandardPrice currency="USD">17.17</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>90</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>41711</SKU>
+      <StandardPrice currency="USD">88.71</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>91</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>38492</SKU>
+      <StandardPrice currency="USD">32.63</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>92</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>28534</SKU>
+      <StandardPrice currency="USD">130.83</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>93</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>14100</SKU>
+      <StandardPrice currency="USD">136.67</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>94</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>33484</SKU>
+      <StandardPrice currency="USD">138.92</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>95</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>52155</SKU>
+      <StandardPrice currency="USD">146.62</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>96</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>49867</SKU>
+      <StandardPrice currency="USD">47.29</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>97</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>30149</SKU>
+      <StandardPrice currency="USD">195.41</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>98</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>51522</SKU>
+      <StandardPrice currency="USD">291.83</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>99</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>53421</SKU>
+      <StandardPrice currency="USD">164.43</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>100</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>16612</SKU>
+      <StandardPrice currency="USD">110.89</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>101</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54594</SKU>
+      <StandardPrice currency="USD">29.45</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>102</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54587</SKU>
+      <StandardPrice currency="USD">87.55</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>103</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>15555</SKU>
+      <StandardPrice currency="USD">33.80</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>104</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>39106</SKU>
+      <StandardPrice currency="USD">18.47</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>105</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>56584</SKU>
+      <StandardPrice currency="USD">809.10</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>106</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54809</SKU>
+      <StandardPrice currency="USD">32.69</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>107</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54767</SKU>
+      <StandardPrice currency="USD">272.70</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>108</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54606</SKU>
+      <StandardPrice currency="USD">27.35</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>109</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>51746</SKU>
+      <StandardPrice currency="USD">11.75</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>110</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20592</SKU>
+      <StandardPrice currency="USD">40.73</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>111</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20442</SKU>
+      <StandardPrice currency="USD">23.11</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>112</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20440</SKU>
+      <StandardPrice currency="USD">23.11</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>113</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20434</SKU>
+      <StandardPrice currency="USD">44.27</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>114</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20400</SKU>
+      <StandardPrice currency="USD">12.08</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>115</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>20222</SKU>
+      <StandardPrice currency="USD">11.70</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>116</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>19051</SKU>
+      <StandardPrice currency="USD">176.43</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>117</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>19048</SKU>
+      <StandardPrice currency="USD">190.04</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>118</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>43463</SKU>
+      <StandardPrice currency="USD">60.47</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>119</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>16916</SKU>
+      <StandardPrice currency="USD">22.14</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>120</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>16914</SKU>
+      <StandardPrice currency="USD">77.67</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>121</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>48441</SKU>
+      <StandardPrice currency="USD">16.27</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>122</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>48429</SKU>
+      <StandardPrice currency="USD">137.22</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>123</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>47666</SKU>
+      <StandardPrice currency="USD">12.45</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>124</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>48278</SKU>
+      <StandardPrice currency="USD">171.75</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>125</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>54780</SKU>
+      <StandardPrice currency="USD">199.99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>126</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>47448</SKU>
+      <StandardPrice currency="USD">99.99</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>127</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>55931</SKU>
+      <StandardPrice currency="USD">514.30</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>128</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>14735</SKU>
+      <StandardPrice currency="USD">247.46</StandardPrice>
+    </Price>
+  </Message>
+  <Message>
+    <MessageID>129</MessageID>
+    <OperationType>Update</OperationType>
+    <Price>
+      <SKU>50903</SKU>
+      <StandardPrice currency="USD">182.94</StandardPrice>
+    </Price>
+  </Message>
+</AmazonEnvelope>

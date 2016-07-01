@@ -49,6 +49,7 @@ class ResponseFeed
       $responseFeed = new ResponseFeed();
       $feedType = $feedType;
       $resposta = $responseFeed->invokeGetFeedSubmissionResult($service, $request, $feedType);
+      return true;
     }
   }
 
@@ -83,19 +84,18 @@ class ResponseFeed
               $mensagemEmail .= "[".$key."] => " .$value ."<br>";
             }
           }
+
           echo "<br>";
           foreach ($role->Result as  $value) {
-            foreach ($value as $key => $value) {
-              $mensagemEmail .= "[".$key."] => " .$value ."<br>";
-              if ($key == 'AdditionalInfo') {
-                foreach ($role->Result->AdditionalInfo->SKU as $key => $value) {
-                  $mensagemEmail .= "[".$key."] => " .$value ."<br>";
-                }
-              }
-            }
+           foreach ($value as $key => $value) {
+             $mensagemEmail .= $key . ' => ' . $value . '<br>';
+             if ($key == 'AdditionalInfo') {
+              $mensagemEmail .= '[SKU]' . ' => ' .$value->SKU. '<br>';
+             }
+           }
           }
-          $destinatario = array('Higor' => 'webmaster@polyhousestore.com' , 'Contato' => 'contato@polihouse.com.br');
-          $assunto      = 'Resposta Envio FEED';
+          $destinatario = array('Higor' => 'webmaster@polyhousestore.com' , 'Contato' => 'contato@polihouse.com.br', 'Neide' => 'neide@polyhousestore.com', 'Caio' => 'caio@polyhousestore.com');
+          $assunto      = 'Feed Amazon';
           $mensagem     = $mensagemEmail;
           $enviaEmail   = new Email();
           $enviaEmail->enviaEmail($destinatario, $assunto, $mensagem);
