@@ -53,7 +53,7 @@ class GeraXML
 			$collection = Mage::getModel('catalog/product')
 			->getCollection()
 			->addAttributeToSort('created_at', 'DESC')
-			->addAttributeToFilter('updated_at',array('gteq' => $date))
+			//->addAttributeToFilter('updated_at',array('gteq' => $date))
 			->addAttributeToFilter('sku', array( 'in' => $skuPost))
 			->addAttributeToFilter('amazon_feed' , '1')
 			->addAttributeToFilter('status' , '1')
@@ -77,7 +77,7 @@ class GeraXML
 					$name         = str_replace('&', '&amp;', $product->getData('name'));
 					$condition    = $product->getAttributeText('condition');
 					$price 		  = str_replace(',', '',$product->getPrice());
-					$explodeDesc  = explode('.', $product->getData('description'));
+					$explodeDesc  = explode('.', $product->getData('short_description'));
 					$description  = substr( $explodeDesc[0] . $explodeDesc[1], 0, 2000);
 
 					//Remove html Special Character
@@ -121,14 +121,31 @@ class GeraXML
 					$StandardProductID = new DOMElement('StandardProductID');
 					$Product->appendChild($StandardProductID);
 
-					$Type = new DOMElement('Type', UPC);
-					$StandardProductID->appendChild($Type);
+					$asin = $product->getAsin();
 
-					$Value = new DOMElement('Value', $upc);
-					$StandardProductID->appendChild($Value);
+					if ($asin != '') {
+						$Type = new DOMElement('Type', ASIN);
+						$StandardProductID->appendChild($Type);
+
+						$Value = new DOMElement('Value', $asin);
+						$StandardProductID->appendChild($Value);
+					}else{
+						$Type = new DOMElement('Type', UPC);
+						$StandardProductID->appendChild($Type);
+
+						$Value = new DOMElement('Value', $upc);
+						$StandardProductID->appendChild($Value);
+					}
 
 					$Condition = new DOMElement('Condition');
 					$Product->appendChild($Condition);
+
+					$itemPackageQuant = $product->getData('item_package_quantity');
+					if ($itemPackageQuant != '') {
+
+						$NumberOfItems = new DOMElement('NumberOfItems', $itemPackageQuant);
+						$Product->appendChild($NumberOfItems);
+					}
 
 					$ConditionType = new DOMElement('ConditionType', $condition);
 					$Condition->appendChild($ConditionType);
@@ -220,7 +237,7 @@ class GeraXML
 			$collection = Mage::getModel('catalog/product')
 			->getCollection()
 			->addAttributeToSort('created_at', 'DESC')
-			->addAttributeToFilter('updated_at',array('gteq' => $date))
+			//->addAttributeToFilter('updated_at',array('gteq' => $date))
 			->addAttributeToFilter('amazon_feed' , '1')
 			->addAttributeToFilter('status' , '1')
 			->addAttributeToSelect('*')->setPageSize(10000);
@@ -243,7 +260,7 @@ class GeraXML
 					$name         = str_replace('&', '&amp;', $product->getData('name'));
 					$condition    = $product->getAttributeText('condition');
 					$price 		  = str_replace(',', '',$product->getPrice());
-					$explodeDesc  = explode('.', $product->getData('description'));
+					$explodeDesc  = explode('.', $product->getData('short_description'));
 					$description  = substr( $explodeDesc[0] . $explodeDesc[1], 0, 2000);
 
 					//Remove html Special Character
@@ -287,17 +304,35 @@ class GeraXML
 					$StandardProductID = new DOMElement('StandardProductID');
 					$Product->appendChild($StandardProductID);
 
-					$Type = new DOMElement('Type', UPC);
-					$StandardProductID->appendChild($Type);
+					$asin = $product->getAsin();
 
-					$Value = new DOMElement('Value', $upc);
-					$StandardProductID->appendChild($Value);
+					if ($asin != '') {
+						$Type = new DOMElement('Type', ASIN);
+						$StandardProductID->appendChild($Type);
+
+						$Value = new DOMElement('Value', $asin);
+						$StandardProductID->appendChild($Value);
+					}else{
+						$Type = new DOMElement('Type', UPC);
+						$StandardProductID->appendChild($Type);
+
+						$Value = new DOMElement('Value', $upc);
+						$StandardProductID->appendChild($Value);
+					}
 
 					$Condition = new DOMElement('Condition');
 					$Product->appendChild($Condition);
 
 					$ConditionType = new DOMElement('ConditionType', $condition);
 					$Condition->appendChild($ConditionType);
+
+					$itemPackageQuant = $product->getData('item_package_quantity');
+					if ($itemPackageQuant != '') {
+
+						$NumberOfItems = new DOMElement('NumberOfItems', $itemPackageQuant);
+						$Product->appendChild($NumberOfItems);
+					}
+
 
 					$DescriptionData = new DOMElement('DescriptionData');
 					$Product->appendChild($DescriptionData);
@@ -392,7 +427,7 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'Produto';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
 	}
 
@@ -459,6 +494,9 @@ class GeraXML
 				if ($amazonFlag == 0) {
 					$stocklevel = 0;
 				}
+				if ($stocklevel <= 0) {
+					$stocklevel = 0;
+				}
 
 	            //Inicio Varias Mensagem ( amazon feed )
 				$Message = new DOMElement('Message');
@@ -502,9 +540,8 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'Stock';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
-
 	}
 
 	function geraPrice()
@@ -546,7 +583,7 @@ class GeraXML
 		->addAttributeToFilter('automate_pricing' , array('eq' => '0'))
 		->addAttributeToFilter('status' , '1')
 		->addAttributeToSelect('*')->setPageSize(10000);
-		echo $collection->getSelect();
+		$collection->getSelect();
 
 		$indice = 0;
 		for ($i=1; $i <= $collection->getLastPageNumber(); $i++) {
@@ -593,7 +630,7 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'Preço';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
 
 	}
@@ -684,7 +721,7 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'Imagem';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
 
 	}
@@ -786,7 +823,7 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'FreeShipping';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
 	}
 
@@ -874,7 +911,7 @@ class GeraXML
 		echo "<br>";
 		$feedType = 'Delete';
 		$relatorioFeed = new ResponseFeed();
-		$relatorioFeed->getResponseFeed($feedID,$feedType);
+		$retornoFeed = $relatorioFeed->getResponseFeed($feedID,$feedType);
 		return $feedID;
 	}
 }

@@ -21,13 +21,12 @@ class AdicionaProdutoAmazon
 			$GeraXML       = new GeraXML();
 			$returnProduto = $GeraXML->geraProduto($skus);
 			if ($returnProduto != '') {
-				return header('Location: index.php?successSku=1&feedId='.$returnProduto);
+				header('Location: index.php?successSku=1&feedId='.$returnProduto);
+			}else{
+				header('Location: index.php?erroSkuEmpty=1');
 			}
-		}else{
-			return header('Location: index.php?erroSkuEmpty=1');
 		}
 	}
-
 }
 
 $addProd = new AdicionaProdutoAmazon();

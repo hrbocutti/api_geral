@@ -53,6 +53,7 @@
               <div class="row">
               <?php
                 if (isset($_GET['erroSkuEmpty']) && $_GET['erroSkuEmpty'] == '1') {
+
                  echo "
                   <div class='alert alert-danger'>
                     <strong>Erro!</strong> Não foi infomado uma 'SKU' valida.
@@ -60,14 +61,17 @@
                 }
 
                 if (isset($_GET['successSku']) && $_GET['successSku'] == '1') {
+                  if (isset($_GET['feedId']) && $_GET['feedId'] != '') {
+                    $feedId = $_GET['feedId'];
+                  }
                  echo "<div class='alert alert-success'>
-                        <strong>Sucesso!</strong> Adicionado com sucesso.
+                        <strong>Sucesso!</strong> Feed enviado com sucesso. Feed ID:".$feedId."
                       </div>";
                 }
               ?>
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                   <h1>Novos Produtos Amazon</h1>
-                  <div class="col-lg-6">
+                  <div class="col-lg-12">
                   <form action="adicionaProdutoAmazon.php" id="form" method="post">
                       <div class="form-group">
                         <label for="sku">SKU</label>
@@ -77,6 +81,9 @@
                       <button type="submit" class="btn btn-default" oncomplete="">Enviar</button>
                     </form>
                   </div>
+                </div>
+                <div class="col-lg-6">
+                  <div id="chart_div"></div>
                 </div>
               </div>
             </div>
@@ -111,8 +118,11 @@
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
 
+        <!-- Google Charts -->
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+
         <!-- Menu Toggle Script -->
-        <script>
           $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
@@ -124,6 +134,47 @@
           $( "#form" ).submit(function( event ) {
               $('#myModal').modal('show');
           });
+
+          <!--Load the AJAX API-->
+          // Load the Visualization API and the corechart package.
+          google.charts.load('current', {'packages':['corechart']});
+
+          // Set a callback to run when the Google Visualization API is loaded.
+          google.charts.setOnLoadCallback(drawChart);
+
+          // Callback that creates and populates a data table,
+          // instantiates the pie chart, passes in the data and
+          // draws it.
+          function drawChart() {
+
+            // Create the data table.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Topping');
+            data.addColumn('number', 'Slices');
+           <?php
+           if ( isset($_GET['qntEnvi']) && isset($_GET['qntErro'])  &&
+                $_GET['qntEnvi'] != '' &&  $_GET['qntErro'] != '')
+           {
+              $qntEnviados = $_GET['qntEnvi'] - $_GET['qntErro'] ;
+              $qntErros = $_GET['qntErro'];
+           }
+
+            echo "data.addRows([
+                    ['Enviados', ".$qntEnviados."],
+                    ['Com Erros', ".$qntErros."]
+                  ]);";
+           ?>
+
+            // Set chart options
+            var options = {'title':'Envio Produtos Amazon',
+                           'width':400,
+                           'height':300};
+
+            // Instantiate and draw our chart, passing in some options.
+            var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+          }
+
 
         </script>
 

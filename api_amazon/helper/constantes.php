@@ -21,6 +21,7 @@ define('op_update', 'Update');
 define('op_delete', 'Delete');
 
 define('UPC', 'UPC');
+define('ASIN', 'ASIN');
 define('unMedida_IN', 'IN');
 define('unMedida_FT', 'FT');
 define('unPeso_KG', 'KG');

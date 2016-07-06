@@ -13,7 +13,7 @@ class ResponseFeed
     include_once('../../envioEmail.php');
 
     $resposta = false;
-    while ($resposta == false) {
+    while ($resposta != true) {
 
       // United States:
       $serviceUrl = "https://mws.amazonservices.com";
@@ -47,10 +47,9 @@ class ResponseFeed
       $request->setFeedSubmissionResult(@fopen('php://memory', 'rw+'));
 
       $responseFeed = new ResponseFeed();
-      $feedType = $feedType;
       $resposta = $responseFeed->invokeGetFeedSubmissionResult($service, $request, $feedType);
-      return true;
     }
+    return $feedId;
   }
 
 
@@ -75,7 +74,6 @@ class ResponseFeed
         $role = $children->ProcessingReport;
 
         if ($role->StatusCode != 'Complete') {
-          return false;
           sleep(300);
         }else{
 
@@ -94,7 +92,7 @@ class ResponseFeed
              }
            }
           }
-          $destinatario = array('Higor' => 'webmaster@polyhousestore.com' , 'Contato' => 'contato@polihouse.com.br', 'Neide' => 'neide@polyhousestore.com', 'Caio' => 'caio@polyhousestore.com');
+          $destinatario = array('Higor' => 'webmaster@polyhousestore.com' , 'Contato' => 'contato@polihouse.com.br', 'Neide' => 'neide@polyhousestore.com', 'Caio' => 'caio@polyhousestore.com', 'Loui' => 'accounts@polyhousestore.com');
           $assunto      = 'Feed Amazon';
           $mensagem     = $mensagemEmail;
           $enviaEmail   = new Email();
@@ -102,15 +100,23 @@ class ResponseFeed
           return true;
         }
       }
-
     }catch (MarketplaceWebService_Exception $ex) {
-      echo("Caught Exception: " . $ex->getMessage() . "\n");
-      echo("Response Status Code: " . $ex->getStatusCode() . "\n");
-      echo("Error Code: " . $ex->getErrorCode() . "\n");
-      echo("Error Type: " . $ex->getErrorType() . "\n");
-      echo("Request ID: " . $ex->getRequestId() . "\n");
-      echo("XML: " . $ex->getXML() . "\n");
-      echo("ResponseHeaderMetadata: " . $ex->getResponseHeaderMetadata() . "\n");
+        /*
+        echo("<br>Caught Exception: " . $ex->getMessage() . "\n");
+        echo("<br>Response Status Code: " . $ex->getStatusCode() . "\n");
+        echo("<br>Error Code: " . $ex->getErrorCode() . "\n");
+        echo("<br>Error Type: " . $ex->getErrorType() . "\n");
+        if ($ex->getErrorType() == 'Unknown Request ID') {
+          return true;
+        }
+        if ($ex->getErrorType() == 'Request is throttled') {
+          sleep(300);
+        }
+        echo("<br>Request ID: " . $ex->getRequestId() . "\n");
+        echo("<br>XML: " . $ex->getXML() . "\n");
+        echo("<br>ResponseHeaderMetadata: " . $ex->getResponseHeaderMetadata() . "\n");
+        */
+        return false;
     }
   }
 }
